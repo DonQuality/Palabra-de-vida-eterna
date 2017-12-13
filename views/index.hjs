@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+  <head lang="en">
+    <title>{{ title }}</title>
+    <!-- meta tags -->
+    <meta name="viewport" content="width=device-width,minimum-scale=1,maximum-scale=1,user-scalable=no">
+    <meta name ="description" content="">
+    <meta name ="keywords" content ="">
+    <meta charset="UTF-8">
+    <!-- links -->
+    <link rel='stylesheet' href='/stylesheets/app.css'>
+    <link rel="icon" type="image/png" href="/images/fav.png">
+    <link href="https://fonts.googleapis.com/css?family=Barlow+Semi+Condensed:300" rel="stylesheet">
+  </head>
+  <body>
+    <main>
+      <header class="main-header sticky">
+        <h1 class="logo">Palabra de Vida Eterna</h1>
+        <nav class="main-nav">
+          <ul class="list-ul">
+            <a href="#inicio" class="slow-down"><li>INICIO</li></a>
+            <li>VIDEOS</li>
+            <li>FOTOS</li>
+            <li>EN VIVO</li>
+            <li class="push-left">CONTACTOS</li>
+          </ul>
+        </nav>
+      </header>
+      <section class="banner-container">
+        <img id="image" class="parallax-img" alt="Sky banner image" src="/images/cross.png">
+      </section>
+      <section class="ui-patterns-menu" id="inicio">
+        <div class="ui-box-container">
+          <section class="ui-boxes">
+            <h3>Coming soon</h3>
+          </section>
+          <section class="ui-boxes"></section>
+        </div>
+      </section>
+      <div class="dividorx1">
+        <h2 class="mensaje-del-dia">Con cántico alabaré el nombre de Dios, y con acción de gracias le exaltaré. <br/> <span class="i-font-different">Salmos 69:30</span></h2>
+      </div>
+      <section class="contactos">
+        <section class="i-contact-container">
+          <h4 class="contactos-title">CONTACTOS Y DIRECCIONES</h4>
+          <div class="left-box-contact">
+            <img src="/images/map.png">
+          </div>
+          <div class="right-box-contact"></div>
+        </section>
+      </section>
+      <footer class="el-footer">
+        <p>Con muchísimo amor para todos ustedes. La Gloria y la Honra solamente para Jehová.</p>
+      </footer>
+    </main>
+    <script src="http://localhost:35729/livereload.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="JS/main.js"></script>
+  </body>
+</html>

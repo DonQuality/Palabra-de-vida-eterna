@@ -1,0 +1,41 @@
+@import "config";
+
+.clearfix{
+  clear: both;
+  height: 0;
+}
+
+.parallax-img{
+  position: relative;
+  top: 0;
+  z-index: -1;
+}
+
+.ui-box-container{
+  @include col(4/4);
+  background: $just-white;
+  margin-top: -1em;
+  border-top: .1em solid $secondary-color;
+  border-bottom: .1em solid $secondary-color;;
+}
+
+.el-footer{
+  @include col(4/4);
+  background: rgba(85, 106, 111, 0.9);
+}
+
+// Stuff that happens on the layout
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+//  Dividorx1
+.dividorx1{
+  @include col(4/4);
+  background-image: url(/images/singtoGodx2.png);
+  background-attachment: fixed;
+  height: 50em;
+
+}
